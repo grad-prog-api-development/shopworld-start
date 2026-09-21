@@ -1,0 +1,35 @@
+﻿<Window x:Class="MobileApp.Wpf.ProductDetailWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MobileApp.Wpf"
+        mc:Ignorable="d"
+        Title="ProductDetailWindow" Height="450" Width="800">
+    <Grid Margin="10">
+        <StackPanel>
+            <TextBlock Text="Product Detail" 
+                    FontSize="24" 
+                    FontWeight="Bold" 
+                    Margin="0,0,0,10" 
+                    HorizontalAlignment="Center"/>
+            <Image 
+                Width="150" 
+                Height="150" 
+                Margin="0,0,0,10"
+                HorizontalAlignment="Center"/>
+            <TextBlock Text="Name:" 
+                    FontWeight="Bold" 
+                    FontSize="18"/>
+            <TextBlock
+                    FontSize="18" 
+                    Margin="0,0,0,10"/>
+            <TextBlock Text="Price:" 
+                    FontWeight="Bold" 
+                    FontSize="18"/>
+            <TextBlock
+                    FontSize="18" 
+                    Margin="0,0,0,10"/>
+        </StackPanel>
+    </Grid>
+</Window>
